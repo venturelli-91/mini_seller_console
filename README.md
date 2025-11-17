@@ -1,7 +1,3 @@
-# Mini Seller Console
-
-A comprehensive sales console application for managing leads and opportunities. Built with modern web technologies, featuring a responsive interface, advanced filtering, and seamless lead-to-opportunity conversion.
-
 ![Mini Seller Console](https://img.shields.io/badge/Next.js-15.5.3-black) ![React](https://img.shields.io/badge/React-19.1.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-blue)
 
 ## 🚀 Features
