@@ -12,6 +12,7 @@ export interface AddLeadFormFieldsProps {
 		source: string;
 		status: string;
 		score: number;
+		value?: number;
 	};
 	onChange: (
 		e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
@@ -125,6 +126,7 @@ export interface Lead {
 	source: string;
 	status: string;
 	score: number;
+	value?: number;
 }
 
 export interface Opportunity {

@@ -35,6 +35,9 @@ const LeadsRow: React.FC<LeadsRowProps> = ({
 			<td className="px-3 py-2 whitespace-nowrap font-bold text-right">
 				{lead.score}
 			</td>
+			<td className="px-3 py-2 whitespace-nowrap font-bold text-right">
+				{lead.value ? `$${lead.value.toLocaleString()}` : "-"}
+			</td>
 			<td className="px-3 py-2 whitespace-nowrap">
 				<span className="inline-block px-2 py-1 rounded bg-gray-100 text-sm">
 					{lead.status}

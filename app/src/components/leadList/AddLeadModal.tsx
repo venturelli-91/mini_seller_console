@@ -11,6 +11,7 @@ const initialForm = {
 	source: "",
 	status: "new",
 	score: 0,
+	value: 0,
 };
 
 const AddLeadModal: React.FC<AddLeadModalProps> = ({
@@ -30,7 +31,7 @@ const AddLeadModal: React.FC<AddLeadModalProps> = ({
 		const { name, value } = e.target;
 		setForm((prev) => ({
 			...prev,
-			[name]: name === "score" ? Number(value) : value,
+			[name]: name === "score" || name === "value" ? Number(value) : value,
 		}));
 	};
 

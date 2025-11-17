@@ -97,6 +97,19 @@ const AddLeadFormFields: React.FC<AddLeadFormFieldsProps> = ({
 				placeholder="Enter score"
 			/>
 		</div>
+		<div className="mb-3">
+			<label className="block text-sm font-medium mb-1">Value ($)</label>
+			<input
+				name="value"
+				value={form.value || ""}
+				onChange={onChange}
+				className="w-full border rounded px-2 py-1 text-base"
+				type="number"
+				min={0}
+				step="0.01"
+				placeholder="Enter value in dollars"
+			/>
+		</div>
 	</>
 );
 

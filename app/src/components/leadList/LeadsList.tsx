@@ -113,6 +113,7 @@ const LeadsList: React.FC<LeadsListProps> = ({ onLeadClick }) => {
 										<th className="px-3 py-2 text-left">Email</th>
 										<th className="px-3 py-2 text-left">Source</th>
 										<th className="px-3 py-2 text-left">Score</th>
+										<th className="px-3 py-2 text-left">Value ($)</th>
 										<th className="px-3 py-2 text-left">Status</th>
 										<th className="px-3 py-2 text-left">Actions</th>
 									</tr>
