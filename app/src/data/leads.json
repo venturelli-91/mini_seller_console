@@ -1,0 +1,40 @@
+{
+	"leads": [
+		{
+			"id": "1",
+			"name": "Alice Johnson",
+			"email": "alice.johnson@example.com",
+			"company": "Tech Solutions",
+			"source": "Website",
+			"status": "New",
+			"score": 85
+		},
+		{
+			"id": "2",
+			"name": "Bob Smith",
+			"email": "bob.smith@example.com",
+			"company": "Innovatech",
+			"source": "Referral",
+			"status": "Contacted",
+			"score": 90
+		},
+		{
+			"id": "3",
+			"name": "Charlie Davis",
+			"email": "charlie.davis@example.com",
+			"company": "Future Tech",
+			"source": "Social Media",
+			"status": "New",
+			"score": 80
+		},
+		{
+			"id": "4",
+			"name": "Diana Evans",
+			"email": "diana.evans@example.com",
+			"company": "Tech Innovations",
+			"source": "Email Campaign",
+			"status": "New",
+			"score": 75
+		}
+	]
+}

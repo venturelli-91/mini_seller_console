@@ -1,0 +1,25 @@
+{
+	"opportunities": [
+		{
+			"id": "1",
+			"name": "Opportunity A",
+			"stage": "Prospecting",
+			"amount": 10000,
+			"accountName": "Tech Solutions"
+		},
+		{
+			"id": "2",
+			"name": "Opportunity B",
+			"stage": "Negotiation",
+			"amount": 20000,
+			"accountName": "Innovatech"
+		},
+		{
+			"id": "3",
+			"name": "Opportunity C",
+			"stage": "Proposal",
+			"amount": 15000,
+			"accountName": "Global Corp"
+		}
+	]
+}
